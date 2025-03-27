@@ -41,10 +41,10 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/79ab2d31746416
 
 
 
-    -- Check if the PlaceId is 789
-elseif game.PlaceId == 789 then
+    -- Dead Rails
+elseif game.PlaceId == 116495829188952 then
     -- Fetch and execute script for PlaceId 789
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Myoosowo/script/main/.github/workflows/differentScript", true))()
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/7e85e09e0a7cb75cfc813416ab17672c.lua"))()
     print("Running script for PlaceId 789")
 
 
