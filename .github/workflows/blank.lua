@@ -52,7 +52,7 @@ elseif game.PlaceId == 116495829188952 then
     -- Dead Rails
 elseif game.PlaceId == 70876832253163 then
     -- Fetch and execute script for PlaceId 789
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Myoosowo/script/main/.github/workflows/differentScript", true))()
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/7e85e09e0a7cb75cfc813416ab17672c.lua"))()
     print("Running script for PlaceId 789")
 
 
