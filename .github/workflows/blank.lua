@@ -1,20 +1,26 @@
 -- Check if the PlaceId is 123
-if game.PlaceId == 123 then
+if game.PlaceId == 275726429 then
     -- Fetch and execute script for PlaceId 123
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Myoosowo/script/main/.github/workflows/SCript%20pls%20donate", true))()
-    print("Running script for PlaceId 123")
+getgenv().Team = "Marines"
+getgenv().AutoLoad = false --Will Load Script On Server Hop
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
+    print("Running script for PlaceId 275726429")
 
 -- Check if the PlaceId is 456
-elseif game.PlaceId == 456 then
+elseif game.PlaceId == 527279238 then
     -- Fetch and execute script for PlaceId 456
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Myoosowo/script/main/.github/workflows/anotherScript", true))()
-    print("Running script for PlaceId 456")
+getgenv().Team = "Marines"
+getgenv().AutoLoad = false --Will Load Script On Server Hop
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
+    print("Running script for PlaceId 527279238")
 
 -- Check if the PlaceId is 789
-elseif game.PlaceId == 789 then
+elseif game.PlaceId == 528760703 then
     -- Fetch and execute script for PlaceId 789
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Myoosowo/script/main/.github/workflows/differentScript", true))()
-    print("Running script for PlaceId 789")
+getgenv().Team = "Marines"
+getgenv().AutoLoad = false --Will Load Script On Server Hop
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
+    print("Running script for PlaceId 528760703")
 
 
 
