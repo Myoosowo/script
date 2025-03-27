@@ -37,7 +37,6 @@ elseif game.PlaceId == 13772394625 then
 
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/79ab2d3174641622d317f9e234797acb.lua"))()
 
-**Status:** :icons_dgreen:
     print("Running script for PlaceId 789")
 
 
