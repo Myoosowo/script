@@ -1,6 +1,6 @@
 -- Check if the PlaceId is 123
 if game.PlaceId == 275726429 then
-    -- Fetch and execute script for PlaceId 123
+    -- Blox Fruits
 getgenv().Team = "Marines"
 getgenv().AutoLoad = false --Will Load Script On Server Hop
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
@@ -8,7 +8,7 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc61
 
 -- Check if the PlaceId is 456
 elseif game.PlaceId == 527279238 then
-    -- Fetch and execute script for PlaceId 456
+    -- Blox Fruits
 getgenv().Team = "Marines"
 getgenv().AutoLoad = false --Will Load Script On Server Hop
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
@@ -16,7 +16,7 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc61
 
 -- Check if the PlaceId is 789
 elseif game.PlaceId == 528760703 then
-    -- Fetch and execute script for PlaceId 789
+      -- Blox Fruits
 getgenv().Team = "Marines"
 getgenv().AutoLoad = false --Will Load Script On Server Hop
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
