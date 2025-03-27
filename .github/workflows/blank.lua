@@ -27,7 +27,7 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc61
     -- fish
 elseif game.PlaceId == 16732694052 then
     -- Fetch and execute script for PlaceId 789
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/1ea884f830ea45eb5b0cdb4772b884a5.lua"))()
+(loadstring or load)(game:HttpGet("https://getnative.cc/script/loader"))()
     print("Running script for PlaceId 16732694052")
 
 
