@@ -37,7 +37,7 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/Catto-YFCN/Lunor_Depe
 elseif game.PlaceId == 13772394625 then
     -- Fetch and execute script for PlaceId 789
 
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/PabloOP-87/Keyless/main/Adopt-Me-Winter-Event", true))()
 
     print("Running script for PlaceId 789")
 
