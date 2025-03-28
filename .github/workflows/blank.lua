@@ -27,8 +27,9 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc61
     -- fish
 elseif game.PlaceId == 16732694052 then
     -- Fetch and execute script for PlaceId 789
-script_key = 'Insert Lunor Key Here';
-loadstring(game:HttpGet('https://raw.githubusercontent.com/Catto-YFCN/Lunor_Dependencies/refs/heads/main/Loader'))()
+script_key="PASTE YOUR KEY HERE";
+
+(loadstring or load)(game:HttpGet("https://getnative.cc/script/loader"))()
 
     print("Running script for PlaceId 16732694052")
 
