@@ -33,11 +33,11 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/Catto-YFCN/Lunor_Depe
     print("Running script for PlaceId 16732694052")
 
 
-    -- Check if the PlaceId is 789
+    -- adopt me
 elseif game.PlaceId == 13772394625 then
     -- Fetch and execute script for PlaceId 789
 
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/79ab2d3174641622d317f9e234797acb.lua"))()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
 
     print("Running script for PlaceId 789")
 
