@@ -29,7 +29,7 @@ elseif game.PlaceId == 16732694052 then
     -- Fetch and execute script for PlaceId 789
 script_key="PASTE YOUR KEY HERE";
 
-(loadstring or load)(game:HttpGet("https://getnative.cc/script/loader"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a3c501e721ec4d66a864cc2276c0f4e9.lua"))()
 
     print("Running script for PlaceId 16732694052")
 
